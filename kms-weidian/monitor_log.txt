@@ -1,0 +1,12 @@
+[2025-04-21 23:02:21] Successfully recorded 7 merged members for prodId 7449243009.
+[2025-04-21 23:02:22] Successfully recorded 7 merged members for prodId 7449181433.
+[2025-04-21 23:02:33] Error occurred when recording prodId 7449243009: [Errno 13] Permission denied: '7449243009\\CHENLE.csv'
+[2025-04-21 23:02:34] Successfully recorded 7 merged members for prodId 7449181433.
+[2025-04-21 23:08:51] Successfully recorded 7 merged members for prodId 7449243009.
+[2025-04-21 23:08:52] Successfully recorded 7 merged members for prodId 7449181433.
+[2025-04-21 23:13:53] Successfully recorded 7 merged members for prodId 7449243009.
+[2025-04-21 23:13:54] Successfully recorded 7 merged members for prodId 7449181433.
+[2025-04-21 23:18:56] Successfully recorded 7 merged members for prodId 7449243009.
+[2025-04-21 23:18:57] Successfully recorded 7 merged members for prodId 7449181433.
+[2025-04-21 23:23:58] Successfully recorded 7 merged members for prodId 7449243009.
+[2025-04-21 23:23:59] Successfully recorded 7 merged members for prodId 7449181433.
