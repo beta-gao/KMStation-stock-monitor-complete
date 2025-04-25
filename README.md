@@ -50,16 +50,38 @@ A lightweight Python tool to automatically monitor and track the real-time stock
 
 ```text
 your_project_folder/
-├── config.py           # Configuration file (prodIds and interval)
-├── monitor.py          # Main program logic
-├── monitor_log.txt     # Auto-generated log file
-├── [prodId folders]/   # Auto-generated folders for each product ID
-│   ├── [MemberName].csv
-│   └── ...
-
+│   ├──kms/
+│      ├── config.py           # Configuration file (prodIds and interval) 
+│      ├── monitor.py          # Main program logic
+│      ├── monitor_log.txt     # Auto-generated log file
+│      ├── [prodId folders]/   # Auto-generated folders for each product ID
+│         ├── [prodID].xlsx
+│         ├── [MemberName1].csv
+│         ├── [MemberName2].csv
+│         └── ...
+│   ├──kms-weidian/
+│      ├── config.py           # Configuration file (prodIds and interval) 
+│      ├── monitor_weidian.py          # Main program logic
+│      ├── monitor_log.txt     # Auto-generated log file
+│      ├── [prodId folders]/   # Auto-generated folders for each product ID
+│         ├── [prodID].xlsx
+│         ├── [MemberName1].csv
+│         ├── [MemberName2].csv
+│         └── ...
 ```
 
-Each member will have a dedicated CSV file under their corresponding product ID folder.
+## Example Output
+
+Each member will have a dedicated CSV file under their corresponding product ID folder, and a master Excel file where a dedicated worksheet will log the real-time sales records once the stock has changed.  
+
+![ExampleCSV](./images/example_csv_per_member.png)  
+
+This is an example for CSV generated for each member.  
+
+![ExampleXLSX](./images/example_xlsx_per_event.png)  
+
+This is an example of an Excel file generated for all members. It only records the time and quantity when a member's stock changes, making the data easier to read. Each member's information is recorded independently in a separate worksheet.  
+
 
 ---
 
